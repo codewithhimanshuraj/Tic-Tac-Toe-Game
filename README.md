@@ -1,47 +1,37 @@
-# Spotify Playlist Clone 🎵
+# Tic Tac Toe Game 🎮
 
-A responsive Spotify-inspired music playlist web application built using modern web technologies. The project replicates the core UI and playlist experience of Spotify, allowing users to browse playlists, play songs, and enjoy a clean music streaming interface.
+A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project allows two players to play the classic Tic Tac Toe game with winner detection, draw handling, reset functionality, and responsive UI.
 
 ---
 
 ## 🚀 Features
 
-- Spotify-inspired modern UI
-- Responsive design for mobile and desktop
-- Music playlist management
-- Play / Pause functionality
-- Song progress bar
-- Dynamic song list rendering
-- Interactive music player controls
-- Smooth user experience
+- Two-player gameplay
+- Winner detection
+- Draw detection
+- Reset Game button
+- New Game button
+- Responsive design
+- Interactive UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
 - HTML5
 - CSS3
 - JavaScript
-
-### Tools & Libraries
-- Font Awesome
-- Google Fonts
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-Spotify-Playlist-Clone/
-│
-├── assets/
-│   ├── songs/
-│   ├── images/
+Tic-Tac-Toe/
 │
 ├── index.html
 ├── style.css
-├── script.js
+├── app.js
 └── README.md
 ```
 
@@ -52,18 +42,18 @@ Spotify-Playlist-Clone/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/spotify-playlist-clone.git
+git clone https://github.com/your-username/tic-tac-toe.git
 ```
 
 ### Navigate to project folder
 
 ```bash
-cd spotify-playlist-clone
+cd tic-tac-toe
 ```
 
 ### Run the project
 
-Simply open:
+Open:
 
 ```bash
 index.html
@@ -73,40 +63,30 @@ in your browser.
 
 ---
 
+## 🎯 How to Play
+
+- Player A starts first.
+- Players take turns marking boxes.
+- The first player to align 3 symbols horizontally, vertically, or diagonally wins.
+- If all boxes are filled and no player wins, the game ends in a draw.
+
+---
+
 ## 📸 Screenshots
 
-### Home Page
+### Game Interface
 
-![Home Page](./screenshots/home.png)
-
-### Music Player
-
-![Music Player](./screenshots/player.png)
+![Tic Tac Toe](./screenshots/game.png)
 
 ---
 
 ## 🌟 Future Improvements
 
-- User authentication
-- Real-time music streaming
-- Playlist creation
-- Backend integration
-- Volume control
-- Search functionality
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
+- Add AI opponent
+- Add score tracking
+- Add sound effects
+- Multiplayer online mode
+- Improve animations and UI
 
 ## 👨‍💻 Author
 
